@@ -1,0 +1,19 @@
+{
+  "name": "convomate",
+  "version": "1.0.0",
+  "description": "A telegram bot to Make a paragraph of your daily routine",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --env-file= .env server.js"
+  },
+  "author": "Vaibhav Dixit",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.3",
+    "telegraf": "^4.16.3"
+  }
+}
